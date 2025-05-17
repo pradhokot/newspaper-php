@@ -1,8 +1,13 @@
 html {
-   font-size: .875rem;
+   font-size: 14px;
 }
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+   @media (max-width: 575.98px) {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+   }
+
    @media (min-width: 1200px) {
       max-width: 1140px;
    }
@@ -76,3 +81,27 @@ html {
       }
    }
 }/* end nav privacy */
+
+.footbar-title {
+   @media (max-width: 767.98px) {
+      position: relative;
+      cursor: pointer;
+
+      &::after {
+         content: '\f077';
+         font-family: 'FontAwesome';
+         color: currentColor;
+         position: absolute;
+         top: 0;
+         right: 0;
+         opacity: 1;
+         transition: .3s ease-in-out;
+         transform: rotate(0deg);
+      }
+      
+      &.collapsed::after {
+         transform: rotate(-180deg);
+         opacity: .5;
+      }
+   }
+}
