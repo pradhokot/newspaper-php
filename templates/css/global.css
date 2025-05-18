@@ -124,3 +124,13 @@ html {
       transform: translate(-50%, -50%);
    }
 }
+
+.navbar {
+   @media (max-width: 991.98px) {
+      transition: .3s ease-in-out;
+
+      &.toggle-scroll {
+         margin-top: -62px;
+      }
+   }
+}

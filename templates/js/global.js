@@ -18,6 +18,14 @@ $(document).ready(function() {
          $('.nav-ad').slideDown();
       };
    });
+   
+   
+   // ----------------- toggle scroll
+   let prevScrollpos = $(window).scrollTop();
+   $(window).on('scroll', function () {
+      $('.navbar').toggleClass('toggle-scroll', prevScrollpos <= $(this).scrollTop());
+      prevScrollpos = $(this).scrollTop();
+   });
 
 
    // ----------------- match media width

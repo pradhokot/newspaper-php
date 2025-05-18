@@ -6,7 +6,7 @@ document.writeln(`
             <a href="#" target="_blank" class="text-decoration-none">
                <div class="position-relative">
                   <div class="ratio overflow-hidden bg-light" style="--bs-aspect-ratio: 25%;">
-                     <h5>Ad</h5>
+                     <h5 class="m-3">Ad</h5>
                      <img src="" class="object-fit-cover" alt="">
                   </div>
                   <button class="btn-close bg-body position-absolute top-0 end-0"></button>
