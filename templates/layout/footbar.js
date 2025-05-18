@@ -1,5 +1,5 @@
 document.writeln(`
-<div class="footbar text-bg-dark">
+<div class="footbar">
    <div class="container">
       <div class="row">
          <div class="col col-12">
@@ -9,19 +9,19 @@ document.writeln(`
                </div><!-- end col -->
                <div class="col">
                   <nav class="nav-sosmed d-flex flex-wrap gap-3 column-gap-4 justify-content-center justify-content-lg-end">
-                     <a href="#" target="_blank" class="text-decoration-none text-reset">
+                     <a href="#" target="_blank" class="link-hover">
                         <i class="fab fa-x-twitter fa-xl"></i>
                      </a>
-                     <a href="#" target="_blank" class="text-decoration-none text-reset">
+                     <a href="#" target="_blank" class="link-hover">
                         <i class="fab fa-facebook-f fa-xl"></i>
                      </a>
-                     <a href="#" target="_blank" class="text-decoration-none text-reset">
+                     <a href="#" target="_blank" class="link-hover">
                         <i class="fab fa-instagram fa-xl"></i>
                      </a>
-                     <a href="#" target="_blank" class="text-decoration-none text-reset">
+                     <a href="#" target="_blank" class="link-hover">
                         <i class="fab fa-youtube fa-xl"></i>
                      </a>
-                     <a href="#" target="_blank" class="text-decoration-none text-reset">
+                     <a href="#" target="_blank" class="link-hover">
                         <i class="fas fa-rss fa-xl"></i>
                      </a>
                   </nav>
@@ -37,76 +37,67 @@ document.writeln(`
                   </h5>
                   <div class="collapse d-md-block" id="footcol1" data-bs-parent="#footbar-menu">
                      <ul class="list-unstyled d-flex flex-column row-gap-2 mb-md-5">
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
+                        <li><a href="" class="link-hover-underline">the sydney morning newspaper</a></li>
+                        <li><a href="" class="link-hover-underline">the age</a></li>
+                        <li><a href="" class="link-hover-underline">brisbane times</a></li>
+                        <li><a href="" class="link-hover-underline">WAtoday</a></li>
+                        <li><a href="" class="link-hover-underline">the australian financial review</a></li>
+                        <li><a href="" class="link-hover-underline">domain</a></li>
+                        <li><a href="" class="link-hover-underline">drive</a></li>
                      </ul>
                   </div>
                </div><!-- end col -->
                <div class="col accordiond-md-none"><hr class="m-0"></div><!-- end col -->
                <div class="col">
                   <h5 class="footbar-title text-reset my-3 mt-md-4 mb-md-2 collapsed" data-bs-toggle="collapse" data-bs-target="#footcol2">
-                     <b>OUR SITES</b>
+                     <b>CLASSIFIED</b>
                   </h5>
                   <div class="collapse d-md-block" id="footcol2" data-bs-parent="#footbar-menu">
                      <ul class="list-unstyled d-flex flex-column row-gap-2 mb-md-5">
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
+                        <li><a href="" class="link-hover-underline">tributes</a></li>
+                        <li><a href="" class="link-hover-underline">place your ad</a></li>
+                        <li><a href="" class="link-hover-underline">commercial real estate</a></li>
                      </ul>
                   </div>
                </div><!-- end col -->
                <div class="col accordiond-md-none"><hr class="m-0"></div><!-- end col -->
                <div class="col">
                   <h5 class="footbar-title text-reset my-3 mt-md-4 mb-md-2 collapsed" data-bs-toggle="collapse" data-bs-target="#footcol3">
-                     <b>OUR SITES</b>
+                     <b>THE SYDNEY MORNING NEWSPAPER</b>
                   </h5>
                   <div class="collapse d-md-block" id="footcol3" data-bs-parent="#footbar-menu">
                      <ul class="list-unstyled d-flex flex-column row-gap-2 mb-md-5">
                         <li><a href="" class="link-hover-underline">contact & support</a></li>
                         <li><a href="" class="link-hover-underline">advertise with us</a></li>
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
+                        <li><a href="" class="link-hover-underline">newsletters</a></li>
+                        <li><a href="" class="link-hover-underline">accessibilty guide</a></li>
+                        <li><a href="" class="link-hover-underline">sitemap</a></li>
+                        <li><a href="" class="link-hover-underline">photo sales</a></li>
+                        <li><a href="" class="link-hover-underline">purchase front page</a></li>
+                        <li><a href="" class="link-hover-underline">content lisencing</a></li>
+                        <li><a href="" class="link-hover-underline">work with us</a></li>
+                        <li><a href="" class="link-hover-underline">tems of use</a></li>
+                        <li><a href="" class="link-hover-underline">privacy policy</a></li>
+                        <li><a href="" class="link-hover-underline">press council</a></li>
+                        <li><a href="" class="link-hover-underline">charter of editorial independence</a></li>
+                        <li><a href="" class="link-hover-underline">al editorial guidelines</a></li>
                      </ul>
                   </div>
                </div><!-- end col -->
                <div class="col accordiond-md-none"><hr class="m-0"></div><!-- end col -->
                <div class="col">
                   <h5 class="footbar-title text-reset my-3 mt-md-4 mb-md-2 collapsed" data-bs-toggle="collapse" data-bs-target="#footcol4">
-                     <b>OUR SITES</b>
+                     <b>PRODUCTS & SERVICES</b> 
                   </h5>	
                   <div class="collapse d-md-block" id="footcol4" data-bs-parent="#footbar-menu">
                      <ul class="list-unstyled d-flex flex-column row-gap-2 mb-md-5">
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
-                        <li><a href="" class="link-hover-underline">contact & support</a></li>
-                        <li><a href="" class="link-hover-underline">advertise with us</a></li>
+                        <li><a href="" class="link-hover-underline">subscribtion packages</a></li>
+                        <li><a href="" class="link-hover-underline">my account</a></li>
+                        <li><a href="" class="link-hover-underline">subscribber FAQ</a></li>
+                        <li><a href="" class="link-hover-underline">delivery status</a></li>
+                        <li><a href="" class="link-hover-underline">today's paper</a></li>
+                        <li><a href="" class="link-hover-underline">good food guide</a></li>
+                        <li><a href="" class="link-hover-underline">daily puzzles</a></li>
                      </ul>
                   </div>
                </div><!-- end col -->
@@ -114,20 +105,40 @@ document.writeln(`
          </div><!-- end col -->
          <div class="col col-12"><hr class="m-0"></div><!-- end col -->
          <div class="col col-12">
-            <div class="row" style="padding: 2rem 0 3rem; row-gap: 2rem;">
+            <div class="row" style="padding: 2rem 0; row-gap: 2rem;">
                <div class="col col-12 col-lg-auto">
                   <p class="text-center text-lg-start mb-0">
                      &copy; <script>document.write(new Date().getFullYear())</script> Newspaper. All rights reserved.
                   </p>
                </div><!-- end col -->
                <div class="col col-12 col-lg">
-                  <nav class="nav-privacy">
-                     <a href="#" target="_blank">privacy policy</a>
-                     <a href="#" target="_blank">terms of use</a>
-                     <a href="#" target="_blank">information on data protection</a>
-                     <a href="#" target="_blank">shipping</a>
-                     <a href="#" target="_blank">faq</a>
-                  </nav>
+                  <ul class="nav-privacy list-unstyled custom-breadcrumb justify-content-center justify-content-lg-end">
+                     <li>
+                        <a href="#" target="_blank" class="link-hover-underline">
+                           privacy policy
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#" target="_blank" class="link-hover-underline">
+                           terms of use
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#" target="_blank" class="link-hover-underline">
+                           information on data protection
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#" target="_blank" class="link-hover-underline">
+                           shipping
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#" target="_blank" class="link-hover-underline">
+                           FAQ's
+                        </a>
+                     </li>
+                  </ul>
                </div><!-- end col -->
             </div><!-- end row -->
          </div><!-- end col -->

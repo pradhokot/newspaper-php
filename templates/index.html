@@ -13,27 +13,76 @@
 <body>
 	<div class="wrapper">
 		<div class="page">
-			<header class="page-header">
-				<nav class="navbar py-lg-4">
+			<header class="page-header bg-body fixed-top">
+				<script src="layout/nav-ad.js"></script>
+				<nav class="navbar py-3 d-block">
 					<div class="container">
-						<h1 class="text-reset lh-1 m-0">
-							<a href="index.html" class="navbar-brand fs-2">
-								Newspaper
-							</a>
-						</h1>
+						<div><small>Saturday, May 17, 2025</small></div>
+						<div class="d-flex flex-wrap gap-2">
+							<button class="btn btn-sm text-reset">Login</button>
+							<div class="d-lg-none">
+								<script src="layout/btn-subscribe.js"></script>
+							</div>
+						</div>
+					</div><!-- end container -->
+					<div class="py-lg-2"><hr class="d-lg-none"></div>
+					<div class="container">
+						<button class="btn btn-sm text-reset order-lg-1" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
+							<i class="fas fa-bars"></i>
+						</button>
+						<div class="order-lg-3 position-lg-absolute top-lg-50 start-lg-50 translate-lg-middle text-lg-center">
+							<h1 class="text-reset lh-1 m-0 mb-lg-1">
+								<a href="index.html" class="navbar-brand text-reset m-0 fs-2">
+									Newspaper
+								</a>
+							</h1>
+							<p class="d-none d-lg-block"><small>INDEPENDENT. ALWAYS.</small></p>
+						</div>
+						<button class="btn btn-sm text-reset order-lg-2 me-lg-auto">
+							<i class="fas fa-search"></i>
+						</button>
+						<div class="d-none d-lg-block order-lg-4">
+							<script src="layout/btn-subscribe.js"></script>
+						</div>
 					</div><!-- end container -->
 				</nav><!-- end navbar -->
-				<aside class="sidebar"></aside><!-- end sidebar -->
-				<div class="banner"></div><!-- end banner -->
+				<aside id="sidebar" class="offcanvas offcanvas-start" z-index="-1">
+					<div class="offcanvas-header">
+						<button class="btn-close" data-bs-dismiss="offcanvas"></button>
+					</div>
+					<div class="offcanvas-body">
+						<ul class="list-unstyled">
+							<li><a href="#">offcanvas menu</a></li>
+							<li><a href="#">offcanvas menu</a></li>
+							<li><a href="#">offcanvas menu</a></li>
+							<li><a href="#">offcanvas menu</a></li>
+							<li><a href="#">offcanvas menu</a></li>
+							<li><a href="#">offcanvas menu</a></li>
+							<li><a href="#">offcanvas menu</a></li>
+						</ul>
+					</div>
+				</aside><!-- end sidebar -->
+				<div class="running-text text-bg-warning py-1">
+					<marquee behavior="" direction="left">
+						<a href="#" target="_blank" class="link-hover-underline opacity-100">
+							<small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, veritatis dolorem obcaecati, magnam ipsam repudiandae consequuntur suscipit quo quae omnis dolorum. Maxime pariatur fugiat nihil quidem veritatis harum praesentium neque.</small>
+						</a>
+					</marquee>
+				</div>
 			</header><!-- end page wrapper -->
-			<main class="page-body">
+			<main class="page-body py-4">
 				<section>
 					<div class="container">
 						<p>
 							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium rem placeat vitae cupiditate reprehenderit autem animi aliquid inventore, nesciunt perferendis quasi, aut adipisci numquam eligendi assumenda necessitatibus cum, sed illum.
+							<br><br>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptatibus quibusdam, labore ratione tenetur quis voluptates debitis! Ipsam voluptatem et, similique fuga aut enim eligendi, eum deleniti reprehenderit consectetur odio!
+							<br>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio repellat quod sed doloribus in accusamus voluptates ab ducimus, provident unde animi! Incidunt exercitationem quisquam neque quo minus perferendis illum obcaecati.
 						</p>
 					</div><!-- end container -->
 				</section>
+				<section class="vh-100"></section>
 			</main><!-- end page body -->
 			<footer class="page-footer">
 				<script src="layout/footbar.js"></script>

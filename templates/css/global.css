@@ -1,5 +1,15 @@
+:root {
+   --color-theme-primary: #030332;
+}
+
 html {
    font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar, .footbar {
+   background-color: var(--color-theme-primary);
+   color: white;
 }
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -44,43 +54,31 @@ html {
    }
 }/* end lisk hover underline */
 
-.nav-privacy {
-   text-align: center;
-   text-transform: capitalize;
+.custom-breadcrumb {
+   display: flex;
+   flex-wrap: wrap;
+   row-gap: .25rem;
+   column-gap: 1.5rem;
 
-   @media (min-width: 992px) {
-      text-align: right;
-   }
-
-   a {
-      color: inherit;
-      text-decoration: none;
-      margin-right: .5rem;
-      opacity: .75;
-
-      &:hover,
-      &:focus,
-      &.active {
-         text-decoration: underline;
-         opacity: 1;
-      }
-
+   &>li {
+      position: relative;
+   
       &::after {
-         content: '|';
-         color: inherit;
-         opacity: .5;
-         margin-left: .5rem;
+         content: '';
+         height: 100%;
+         border-right: solid 1px currentColor;
+         position: absolute;
+         top: 50%;
+         left: calc(100% + .75em);
+         transform: translate(-50%, -50%);
+         opacity: .25;
       }
-
-      &:last-of-type::after {
+   
+      &:last-child::after {
          display: none;
       }
-
-      &:last-of-type {
-         margin-right: 0;
-      }
    }
-}/* end nav privacy */
+}/* end custom breadcrumb */
 
 .footbar-title {
    @media (max-width: 767.98px) {
@@ -96,12 +94,33 @@ html {
          right: 0;
          opacity: 1;
          transition: .3s ease-in-out;
-         transform: rotate(0deg);
+         transform: rotate(0deg) scale(1);
       }
       
       &.collapsed::after {
-         transform: rotate(-180deg);
+         transform: rotate(-180deg) scale(.75);
          opacity: .5;
       }
+   }
+}/* end footbar title */
+
+.position-lg-absolute {
+   @media (min-width: 992px) {
+      position: absolute;
+   }
+}
+.top-lg-50 {
+   @media (min-width: 992px) {
+      top: 50%;
+   }
+}
+.start-lg-50 {
+   @media (min-width: 992px) {
+      left: 50%;
+   }
+}
+.translate-lg-middle {
+   @media (min-width: 992px) {
+      transform: translate(-50%, -50%);
    }
 }
