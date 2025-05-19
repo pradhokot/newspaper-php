@@ -1,3 +1,12 @@
+:root {
+   --color-warning: #f7ca46;
+   --bs-warning: #f7ca46 !important;
+   --bs-warning-rgb: 247, 202, 70 !important;
+   --color-danger: #FF4EB0;
+   --bs-danger: #FF4EB0 !important;
+   --bs-danger-rgb: 255, 78, 176 !important;
+}
+
 html {
    font-size: 15px;
 }

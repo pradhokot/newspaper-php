@@ -1,5 +1,5 @@
 document.writeln(`
-<div class="nav-ad bg-white">
+<div class="nav-ad">
    <div class="container p-0 p-md-3">
       <div class="row justify-content-center">
          <div class="col col-12 col-md-10 col-lg-8">
@@ -15,6 +15,6 @@ document.writeln(`
             </div>
          </div><!-- end col -->
       </div><!-- end row -->
-      <p class="text-dark text-center m-0 lh-1"><small><small>Advertisement.</small></small></p>
+      <p class="text-center m-0 lh-1"><small><small>Advertisement.</small></small></p>
    </div><!-- end container -->
 </div><!-- end nav adds -->`)
