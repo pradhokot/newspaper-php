@@ -11,13 +11,13 @@ $(document).ready(function() {
 
 
    // ----------------- scrolltop window
-   // $(window).scroll(function () {
-   //    if ($(this).scrollTop() > 100) {
-   //       $('.nav-ad').slideUp();
-   //    } else {
-   //       $('.nav-ad').slideDown();
-   //    };
-   // });
+   $(window).scroll(function () {
+      if ($(this).scrollTop() > 100) {
+         $('.nav-ad').slideUp();
+      } else {
+         $('.nav-ad').slideDown();
+      };
+   });
    
    
    // ----------------- toggle scroll

@@ -3,43 +3,7 @@ document.writeln(`
    <div class="container">
       <div class="row row-cols-1 row-gap-4 py-4 row-cols-md-auto gx-md-5 justify-content-lg-between align-items-lg-end">
          <div class="col">
-            <ul class="list-unstyled">
-               <li>
-                  <a href="#" target="_blank" class="link-hover-underline">
-                     about us
-                  </a>
-               </li>
-               <li>
-                  <a href="#" target="_blank" class="link-hover-underline">
-                     history
-                  </a>
-               </li>
-               <li>
-                  <a href="#" target="_blank" class="link-hover-underline">
-                     FAQ
-                  </a>
-               </li>
-               <li>
-                  <a href="#" target="_blank" class="link-hover-underline">
-                     editorial policy
-                  </a>
-               </li>
-               <li>
-                  <a href="#" target="_blank" class="link-hover-underline">
-                     privacy policy
-                  </a>
-               </li>
-               <li>
-                  <a href="#" target="_blank" class="link-hover-underline">
-                     contact us
-                  </a>
-               </li>
-               <li>
-                  <a href="#" target="_blank" class="link-hover-underline">
-                     Email : factabot@gmail.com
-                  </a>
-               </li>
-            </ul>
+            <script src="layout/footbar-menu.js"></script>
          </div><!-- end col -->
          <div class="col">
             <p>
