@@ -1,5 +1,5 @@
 html {
-   font-size: 14px;
+   font-size: 15px;
 }
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -89,6 +89,14 @@ html {
    @media (min-width: 992px) {
       transform: translate(-50%, -50%);
    }
+}
+
+.ratio {
+   background-image: url(../../../asset/img/no-images.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 50% auto;
+   background-color: #d1d1d1;
 }
 
 

@@ -11,7 +11,7 @@ document.writeln(`
                   <p class="mb-1 lh-1" style="font-size: 1.75rem;">
                      <b class="fw-bold">FactaBot</b> <br>
                   </p>
-                  <p class="m-0 lh-1 text-uppercase text-warning" style="font-size: .75rem;">
+                  <p class="m-0 lh-1 text-uppercase text-warning" style="font-size: .65rem;">
                      Real news. Sharp jokes. Zero puppeteers
                   </p>
                </div>

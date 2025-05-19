@@ -1,10 +1,16 @@
 document.writeln(`
-<div class="running-text text-bg-warning py-1 position-relative" style="border-top: solid 2px rgb(250, 24, 111); border-bottom: solid 2px rgb(37, 120, 235); height: 33px;">
-   <marquee behavior="" direction="left" class="position-absolute top-50 translate-middle-y start-0 end-0 w-100">
-      <a href="#" class="link-hover-underline lh-1 d-flex">
-         <span>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat nihil eveniet quo itaque optio eum assumenda nostrum ea pariatur et impedit quasi, vitae perferendis quod reprehenderit culpa qui facere perspiciatis.
-         </span>
+<div class="running-text text-bg-warning position-relative" style="height: 48px;">
+   <marquee behavior="" direction="" class="position-absolute top-50 translate-middle-y start-0 end-0">
+      <a href="#" class="link-hover-underline">
+         The News Is Full of Spin. Here's the Sarcastic Truth, straight from 
+         &nbsp;&nbsp;&nbsp;&nbsp; 
+         <img src="../../asset/img/abc-logo-v1.png" width="24" height="auto" alt="">
+         &nbsp;&nbsp;
+         <img src="../../asset/img/theguardian-logo.png" width="86" height="auto" alt="">
+         &nbsp;&nbsp;
+         <img src="../../asset/img/sbsnews-logo.png" width="64" height="auto" alt="">
+         &nbsp;&nbsp;&nbsp;&nbsp; 
+         and anyone who still does journalism
       </a>
    </marquee>
 </div><!-- end running text -->`)
