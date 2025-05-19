@@ -1,11 +1,11 @@
 document.writeln(`
 <div class="footbar text-bg-warning">
    <div class="container">
-      <div class="row row-gap-4 py-4 gx-md-5 justify-content-lg-between align-items-lg-end">
-         <div class="col col-12 col-md-auto">
+      <div class="row row-cols-1 row-gap-4 py-4 row-cols-md-auto gx-md-5 justify-content-md-between align-items-md-end">
+         <div class="col">
             <script src="layout/footbar-menu.js"></script>
          </div><!-- end col -->
-         <div class="col col-12 col-md-auto d-none">
+         <div class="col d-none">
             <p>
                The News Is Full of Spin. Here's the Sarcastic Truth, <br class="d-none d-lg-inline">straight from
             </p>
@@ -18,7 +18,7 @@ document.writeln(`
                and anyone who still does journalism
             </p>
          </div><!-- end col -->
-         <div class="col col-12 col-lg-auto">
+         <div class="col">
             <p class="text-center text-lg-start">
                &copy; <script>document.write(new Date().getFullYear())</script> FactaBot. All rights reserved.
             </p>

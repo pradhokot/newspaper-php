@@ -5,7 +5,7 @@ document.writeln(`
          <h1 class="text-reset m-0 lh-1 me-auto align-items-center">
             <a href="index.html" class="navbar-brand d-flex column-gap-2 p-0 align-items-center">
                <div class="ratio ratio-1x1" style="width: 48px;">
-                  <img src="../../asset/img/logo-p.png" class="object-fit-contain" alt="" style="filter: invert();">
+                  <img src="../../asset/img/logo-bot.png" class="object-fit-contain" alt="">
                </div>
                <div>
                   <p class="mb-1 lh-1" style="font-size: 1.75rem;">
