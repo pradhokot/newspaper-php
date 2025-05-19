@@ -1,0 +1,116 @@
+html {
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+   @media (max-width: 575.98px) {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+   }
+
+   @media (min-width: 1200px) {
+      max-width: 1140px;
+   }
+}
+
+.text-reset {
+   font-size: inherit;
+}
+
+.link-hover {
+   color: inherit;
+   opacity: .75;
+   text-decoration: none;
+   text-transform: capitalize;
+
+   &:hover,
+   &:focus,
+   &.active {
+      opacity: 1;
+   }
+}/* end lisk hover */
+
+.link-hover-underline {
+   color: inherit;
+   opacity: .75;
+   text-decoration: none;
+   text-transform: capitalize;
+   
+   &:hover,
+   &:focus,
+   &.active {
+      opacity: 1;
+      text-decoration: underline;
+   }
+}/* end lisk hover underline */
+
+.custom-breadcrumb {
+   display: flex;
+   flex-wrap: wrap;
+   row-gap: .25rem;
+   column-gap: 1.5rem;
+
+   &>li {
+      position: relative;
+   
+      &::after {
+         content: '';
+         height: 100%;
+         border-right: solid 1px currentColor;
+         position: absolute;
+         top: 50%;
+         left: calc(100% + .75em);
+         transform: translate(-50%, -50%);
+         opacity: .25;
+      }
+   
+      &:last-child::after {
+         display: none;
+      }
+   }
+}/* end custom breadcrumb */
+
+.position-lg-absolute {
+   @media (min-width: 992px) {
+      position: absolute;
+   }
+}
+.top-lg-50 {
+   @media (min-width: 992px) {
+      top: 50%;
+   }
+}
+.start-lg-50 {
+   @media (min-width: 992px) {
+      left: 50%;
+   }
+}
+.translate-lg-middle {
+   @media (min-width: 992px) {
+      transform: translate(-50%, -50%);
+   }
+}
+
+
+/* --------------- navbar */
+.navbar {
+   .container-lg {
+      @media (max-width: 991.98px) {
+         padding: 0;
+      }
+   }
+
+   .nav-link {
+      color: white;
+      background-color: rgba(255, 255, 255, .25);
+      padding: .25em .5em;
+      line-height: 1.25;
+      border-radius: var(--bs-border-radius);
+
+      &.active {
+         color: black;
+         background-color: rgba(var(--bs-warning-rgb), 1) !important;
+      }
+   }
+}

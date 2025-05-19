@@ -1,0 +1,64 @@
+document.writeln(`
+<div class="footbar text-bg-warning">
+   <div class="container">
+      <div class="row row-cols-1 row-gap-4 py-4 row-cols-md-auto gx-md-5 justify-content-lg-between align-items-lg-end">
+         <div class="col">
+            <ul class="list-unstyled">
+               <li>
+                  <a href="#" target="_blank" class="link-hover-underline">
+                     about us
+                  </a>
+               </li>
+               <li>
+                  <a href="#" target="_blank" class="link-hover-underline">
+                     history
+                  </a>
+               </li>
+               <li>
+                  <a href="#" target="_blank" class="link-hover-underline">
+                     FAQ
+                  </a>
+               </li>
+               <li>
+                  <a href="#" target="_blank" class="link-hover-underline">
+                     editorial policy
+                  </a>
+               </li>
+               <li>
+                  <a href="#" target="_blank" class="link-hover-underline">
+                     privacy policy
+                  </a>
+               </li>
+               <li>
+                  <a href="#" target="_blank" class="link-hover-underline">
+                     contact us
+                  </a>
+               </li>
+               <li>
+                  <a href="#" target="_blank" class="link-hover-underline">
+                     Email : factabot@gmail.com
+                  </a>
+               </li>
+            </ul>
+         </div><!-- end col -->
+         <div class="col">
+            <p>
+               The News Is Full of Spin. Here's the Sarcastic Truth, <br class="d-none d-lg-inline">straight from
+            </p>
+            <div class="d-flex flex-nowrap column-gap-3 align-items-baseline mb-2">
+               <img src="../../asset/img/abc-logo-v1.png" width="100%" height="auto" alt="" style="max-width: 2rem;">
+               <img src="../../asset/img/theguardian-logo.png" width="100%" height="auto" alt="" style="max-width: 7rem;">
+               <img src="../../asset/img/sbsnews-logo.png" width="100%" height="auto" alt="" style="max-width: 5rem;">
+            </div>
+            <p>
+               and anyone who still does journalism
+            </p>
+         </div><!-- end col -->
+         <div class="col">
+            <p class="text-center text-lg-start">
+               &copy; <script>document.write(new Date().getFullYear())</script> FactaBot. All rights reserved.
+            </p>
+         </div><!-- end col -->
+      </div><!-- end row -->
+   </div><!-- end container -->
+</div>`)

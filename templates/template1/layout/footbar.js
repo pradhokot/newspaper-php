@@ -5,7 +5,7 @@ document.writeln(`
          <div class="col col-12">
             <div class="row row-cols-1 row-cols-md-auto justify-content-md-between" style="padding: 2rem 0; row-gap: 2rem;">
                <div class="col">
-                  <h5 class="fs-2 m-0 text-center text-lg-start">Newspaper</h5>
+                  <h5 class="fs-2 m-0 text-center text-lg-start">Pradhokot</h5>
                </div><!-- end col -->
                <div class="col">
                   <nav class="nav-sosmed d-flex flex-wrap gap-3 column-gap-4 justify-content-center justify-content-lg-end">
