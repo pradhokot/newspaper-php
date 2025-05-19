@@ -5,7 +5,7 @@ document.writeln(`
          <div class="col col-12 col-md-auto">
             <script src="layout/footbar-menu.js"></script>
          </div><!-- end col -->
-         <div class="col col-12 col-md-auto">
+         <div class="col col-12 col-md-auto d-none">
             <p>
                The News Is Full of Spin. Here's the Sarcastic Truth, <br class="d-none d-lg-inline">straight from
             </p>
