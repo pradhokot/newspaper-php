@@ -1,5 +1,5 @@
 document.writeln(`
-<div class="nav-ad">
+<div class="nav-ad" style="background-color: var(--color-gray)">
    <div class="container p-0 p-md-3">
       <div class="row justify-content-center">
          <div class="col col-12 col-md-10 col-lg-8">

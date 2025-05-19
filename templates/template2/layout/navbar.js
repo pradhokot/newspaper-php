@@ -79,7 +79,7 @@ document.writeln(`
             </div>
          </div><!-- end container -->
       </div>
-      <div class="bg-dark-subtle text-white">
+      <div class="bg-black text-white">
          <div class="container-lg d-flex flex-nowrap">
             <div>
                <button class="btn btn-sm btn-secondary rounded-0 border-0 opacity-75 h-100">

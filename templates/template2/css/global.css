@@ -5,6 +5,9 @@
    --color-danger: #FF4EB0;
    --bs-danger: #FF4EB0 !important;
    --bs-danger-rgb: 255, 78, 176 !important;
+   --color-gray: #595c5f;
+   --bs-secondary: #969696 !important;
+   --bs-secondary-rgb: 150, 150, 150 !important;
 }
 
 html {
@@ -118,15 +121,20 @@ html {
    }
 
    .nav-link {
-      color: white;
       background-color: rgba(255, 255, 255, .25);
       padding: .25em .5em;
       line-height: 1.25;
       border-radius: var(--bs-border-radius);
 
       &.active {
-         color: black;
+         color: black !important;
          background-color: rgba(var(--bs-warning-rgb), 1) !important;
       }
+   }
+}
+
+.border-md-start {
+   @media (min-width: 768px) {
+      border-left: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
    }
 }
