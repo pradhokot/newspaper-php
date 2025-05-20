@@ -1,8 +1,11 @@
 document.writeln(`
-<div class="running-text text-bg-warning position-relative border-top border-bottom border-3 border-danger" style="height: 36px;">
-   <marquee behavior="" direction="" class="position-absolute top-50 translate-middle-y start-0 end-0">
-      <a href="#" class="link-hover-underline opacity-100">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellendus animi voluptatum beatae eos facere, labore numquam atque autem asperiores sit nemo officia amet quo, esse minima reiciendis. Fuga, adipisci.
-      </a>
-   </marquee>
+<!-- ----------- running text -->
+<div class="running-text border-top border-3 border-danger">
+   <div class="border-bottom border-3 border-danger">
+      <div class="text-bg-warning py-1 position-relative" style="height: 2rem;">
+         <marquee behavior="" direction="" class="position-absolute top-50 translate-middle-y start-0 end-0">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum soluta iusto fuga alias.
+         </marquee>
+      </div>
+   </div>
 </div><!-- end running text -->`)

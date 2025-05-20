@@ -1,1 +1,0 @@
-document.writeln(`<button class="btn btn-sm btn-primary">SUBSCRIBE</button>`)

@@ -1,158 +1,95 @@
 document.writeln(`
-<nav class="navbar navbar-dark bg-dark p-0 d-block">
-   <section class="py-lg-3">
-      <div class="container-lg d-flex flex-wrap align-items-center column-gap-2 column-gap-lg-3">
-         <h1 class="text-reset m-0 lh-1 me-auto align-items-center">
-            <a href="index.html" class="navbar-brand d-flex column-gap-2 p-0 align-items-center">
-               <div class="ratio ratio-1x1" style="width: 48px;">
-                  <img src="../../asset/img/logo-bot.png" class="object-fit-contain" alt="">
+<!-- ----------- navbar -->
+<nav class="navbar p-0 bg-body d-block">
+   <div class="navbar-header">
+      <div class="container-lg d-flex flex-wrap align-items-center px-0 px-lg-3 py-lg-2 column-gap-3">
+         <h1 class="m-0 text-reset navbar-logo">
+            <a href="index.html" class="text-decoration-none text-reset d-flex flex-nowrap column-gap-3 align-items-center">
+               <div class="ratio ratio-1x1" style="width: 56px;">
+                  <img src="../../asset/img/logo-bot.png" class="object-fit-cover" alt="">
                </div>
-               <div>
-                  <p class="mb-1 lh-1" style="font-size: 1.75rem;">
-                     <b class="fw-bold">FactaBot</b> <br>
-                  </p>
-                  <p class="m-0 lh-1 text-uppercase text-warning" style="font-size: .65rem;">
-                     Real news. Sharp jokes. Zero puppeteers
-                  </p>
+               <div class="lh-1">
+                  <b class="fw-bold lh-1 m-0" style="font-size: 1.5rem;">FactaBot</b><br>
+                  <small class="text-warning" style="font-size: .75rem;">Real news. Sharp jokes. Zero puppeteers</small>
                </div>
             </a>
          </h1>
-         <div class="d-none d-lg-flex align-items-lg-center column-gap-lg-3">
-            <form action="">
-               <div class="input-group">
-                  <input type="search" class="form-control border-light border-end-0 shadow-none" placeholder="Search">
-                  <button class="btn btn-outline-light border-start-0">
-                     <i class="fas fa-search"></i>
-                  </button>
-               </div>
-            </form>
-            <button class="btn btn-outline-light">Login</button>
+         <div class="flex-grow-1 d-flex flex-nowrap align-items-center column-gap-3 justify-content-end">
+            <div class="input-group d-none d-lg-flex" style="max-width: 15rem;">
+               <input type="search" class="form-control border-light border-end-0 shadow-none" placeholder="Search">
+               <button class="btn border-light border-start-0"><i class="fas fa-search"></i></button>
+            </div>
+            <a href="#" class="btn btn-outline-light d-none d-lg-block">Login</a>
+            <button class="btn btn-lg rounded-0 border-0 shadow-none p-lg-0" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
+               <i class="fas fa-bars"></i>
+            </button>
          </div>
-         <button class="navbar-toggler rounded-0 border-0 shadow-none p-lg-0" data-bs-toggle="offcanvas" data-bs-target="#sidebar">
-            <span class="navbar-toggler-icon"></span>
-         </button>
       </div><!-- end container -->
-   </section>
-   <section>
-      <div class="text-bg-secondary">
-         <div class="container-lg d-flex flex-nowrap">
-            <div>
-               <button class="btn btn-sm btn-dark rounded-0 border-0 opacity-75 h-100">
-                  <i class="fas fa-chevron-left"></i>
-               </button>
-            </div>
-            <div class="w-100 overflow-hidden">
-               <div class="overflow-x-auto py-1 px-2 w-100">
-                  <ul class="nav flex-row flex-nowrap column-gap-2 text-nowrap fw-medium">
-                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                           <span>asia</span>
-                        </a>
-                     </li>
-                     <li class="nav-item">
-                        <a href="#" class="nav-link active">
-                           <span>australia</span>
-                        </a>
-                     </li>
-                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                           <span>china</span>
-                        </a>
-                     </li>
-                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                           <span>europe</span>
-                        </a>
-                     </li>
-                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                           <span>USA</span>
-                        </a>
-                     </li>
-                  </ul>
+   </div><!-- end navbar header -->
+   <div class="navbar-menu">
+      <section class="bg-secondary">
+         <div class="container-lg">
+            <div class="overflow-x-auto">
+               <div class="d-flex flex-nowrap text-capitalize column-gap-2 text-nowrap py-1">
+                  <a href="#" class="btn btn-sm btn-secondary">
+                     <span><b class="fw-medium">asia</b></span>
+                  </a>
+                  <a href="#" class="btn btn-sm btn-secondary active">
+                     <span><b class="fw-medium">australia</b></span>
+                  </a>
+                  <a href="#" class="btn btn-sm btn-secondary">
+                     <span><b class="fw-medium">china</b></span>
+                  </a>
+                  <a href="#" class="btn btn-sm btn-secondary">
+                     <span><b class="fw-medium">europe</b></span>
+                  </a>
+                  <a href="#" class="btn btn-sm btn-secondary">
+                     <span><b class="fw-medium">USA</b></span>
+                  </a>
                </div>
             </div>
-            <div>
-               <button class="btn btn-sm btn-dark rounded-0 border-0 opacity-75 h-100">
-                  <i class="fas fa-chevron-right"></i>
-               </button>
-            </div>
          </div><!-- end container -->
-      </div>
-      <div class="text-bg-dark">
-         <div class="container-lg d-flex flex-nowrap">
-            <div>
-               <button class="btn btn-sm btn-secondary rounded-0 border-0 opacity-75 h-100">
-                  <i class="fas fa-chevron-left"></i>
-               </button>
-            </div>
-            <div class="w-100 overflow-hidden">
-               <div class="overflow-x-auto py-1 px-2 w-100">
-                  <ul class="nav flex-row flex-nowrap column-gap-2 text-nowrap fw-medium">
-                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                           <span>breaking news</span>
-                        </a>
-                     </li>
-                     <li class="nav-item">
-                        <a href="#" class="nav-link active">
-                           <span>politics</span>
-                        </a>
-                     </li>
-                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                           <span>world</span>
-                        </a>
-                     </li>
-                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                           <span>business</span>
-                        </a>
-                     </li>
-                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                           <span>finance</span>
-                        </a>
-                     </li>
-                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                           <span>sports</span>
-                        </a>
-                     </li>
-                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                           <span>health</span>
-                        </a>
-                     </li>
-                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                           <span>technology</span>
-                        </a>
-                     </li>
-                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                           <span>travel & livestyle</span>
-                        </a>
-                     </li>
-                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                           <span>entertainment</span>
-                        </a>
-                     </li>
-                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                           <span>MISC</span>
-                        </a>
-                     </li>
-                  </ul>
+      </section>
+      <section class="bg-dark-subtle">
+         <div class="container-lg">
+            <div class="overflow-x-auto">
+               <div class="d-flex flex-nowrap text-capitalize column-gap-2 text-nowrap py-1">
+                  <a href="#" class="btn btn-sm btn-secondary active">
+                     <span><b class="fw-medium">breaking news</b></span>
+                  </a>
+                  <a href="#" class="btn btn-sm btn-secondary">
+                     <span><b class="fw-medium">policies</b></span>
+                  </a>
+                  <a href="#" class="btn btn-sm btn-secondary">
+                     <span><b class="fw-medium">world</b></span>
+                  </a>
+                  <a href="#" class="btn btn-sm btn-secondary">
+                     <span><b class="fw-medium">business</b></span>
+                  </a>
+                  <a href="#" class="btn btn-sm btn-secondary">
+                     <span><b class="fw-medium">finance</b></span>
+                  </a>
+                  <a href="#" class="btn btn-sm btn-secondary">
+                     <span><b class="fw-medium">sports</b></span>
+                  </a>
+                  <a href="#" class="btn btn-sm btn-secondary">
+                     <span><b class="fw-medium">health</b></span>
+                  </a>
+                  <a href="#" class="btn btn-sm btn-secondary">
+                     <span><b class="fw-medium">texhnology</b></span>
+                  </a>
+                  <a href="#" class="btn btn-sm btn-secondary">
+                     <span><b class="fw-medium">travel & livestyle</b></span>
+                  </a>
+                  <a href="#" class="btn btn-sm btn-secondary">
+                     <span><b class="fw-medium">entertainment</b></span>
+                  </a>
+                  <a href="#" class="btn btn-sm btn-secondary">
+                     <span><b class="fw-medium">MISC</b></span>
+                  </a>
                </div>
             </div>
-            <div>
-               <button class="btn btn-sm btn-secondary rounded-0 border-0 opacity-75 h-100">
-                  <i class="fas fa-chevron-right"></i>
-               </button>
-            </div>
          </div><!-- end container -->
-      </div>
-   </section>
+      </section>
+   </div><!-- end navbar menu -->
 </nav><!-- end navbar -->`)
