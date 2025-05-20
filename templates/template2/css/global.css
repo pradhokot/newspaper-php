@@ -129,3 +129,13 @@ html {
    column-gap: .5rem;
    line-height: 1;
 }
+
+.ellipsis-4-lines {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5em;
+    max-height: 6em;
+  }
