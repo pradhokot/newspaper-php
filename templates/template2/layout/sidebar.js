@@ -4,7 +4,7 @@ document.writeln(`
       <button class="btn-close" data-bs-dismiss="offcanvas"></button>
    </div>
    <div class="offcanvas-body">
-      <div class="fs-4">
+      <div class="fs-5">
          <script src="layout/footbar-menu.js"></script>
       </div>
    </div>

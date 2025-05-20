@@ -20,7 +20,7 @@ document.writeln(`
          <div class="d-none d-lg-flex align-items-lg-center column-gap-lg-3">
             <form action="">
                <div class="input-group">
-                  <input type="search" class="form-control border-light border-end-0" placeholder="Search">
+                  <input type="search" class="form-control border-light border-end-0 shadow-none" placeholder="Search">
                   <button class="btn btn-outline-light border-start-0">
                      <i class="fas fa-search"></i>
                   </button>
@@ -45,27 +45,27 @@ document.writeln(`
                <div class="overflow-x-auto py-1 px-2 w-100">
                   <ul class="nav flex-row flex-nowrap column-gap-2 text-nowrap fw-medium">
                      <li class="nav-item">
-                        <a href="#" class="nav-link link-hover">
+                        <a href="#" class="nav-link">
                            <span>asia</span>
                         </a>
                      </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link link-hover active">
+                        <a href="#" class="nav-link active">
                            <span>australia</span>
                         </a>
                      </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link link-hover">
+                        <a href="#" class="nav-link">
                            <span>china</span>
                         </a>
                      </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link link-hover">
+                        <a href="#" class="nav-link">
                            <span>europe</span>
                         </a>
                      </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link link-hover">
+                        <a href="#" class="nav-link">
                            <span>USA</span>
                         </a>
                      </li>
@@ -79,7 +79,7 @@ document.writeln(`
             </div>
          </div><!-- end container -->
       </div>
-      <div class="bg-black text-white">
+      <div class="text-bg-dark">
          <div class="container-lg d-flex flex-nowrap">
             <div>
                <button class="btn btn-sm btn-secondary rounded-0 border-0 opacity-75 h-100">
@@ -90,57 +90,57 @@ document.writeln(`
                <div class="overflow-x-auto py-1 px-2 w-100">
                   <ul class="nav flex-row flex-nowrap column-gap-2 text-nowrap fw-medium">
                      <li class="nav-item">
-                        <a href="#" class="nav-link link-hover">
+                        <a href="#" class="nav-link">
                            <span>breaking news</span>
                         </a>
                      </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link link-hover active">
+                        <a href="#" class="nav-link active">
                            <span>politics</span>
                         </a>
                      </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link link-hover">
+                        <a href="#" class="nav-link">
                            <span>world</span>
                         </a>
                      </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link link-hover">
+                        <a href="#" class="nav-link">
                            <span>business</span>
                         </a>
                      </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link link-hover">
+                        <a href="#" class="nav-link">
                            <span>finance</span>
                         </a>
                      </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link link-hover">
+                        <a href="#" class="nav-link">
                            <span>sports</span>
                         </a>
                      </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link link-hover">
+                        <a href="#" class="nav-link">
                            <span>health</span>
                         </a>
                      </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link link-hover">
+                        <a href="#" class="nav-link">
                            <span>technology</span>
                         </a>
                      </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link link-hover">
+                        <a href="#" class="nav-link">
                            <span>travel & livestyle</span>
                         </a>
                      </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link link-hover">
+                        <a href="#" class="nav-link">
                            <span>entertainment</span>
                         </a>
                      </li>
                      <li class="nav-item">
-                        <a href="#" class="nav-link link-hover">
+                        <a href="#" class="nav-link">
                            <span>MISC</span>
                         </a>
                      </li>
