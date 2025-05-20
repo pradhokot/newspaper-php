@@ -28,9 +28,9 @@ document.writeln(`
    </div><!-- end navbar header -->
    <div class="navbar-menu">
       <section class="bg-secondary">
-         <div class="container-lg">
+         <div class="container-lg px-1 px-lg-3">
             <div class="overflow-x-auto">
-               <div class="d-flex flex-nowrap text-capitalize column-gap-2 text-nowrap py-1">
+               <div class="d-flex flex-nowrap text-capitalize column-gap-1 text-nowrap py-1">
                   <a href="#" class="btn btn-sm btn-secondary">
                      <span><b class="fw-medium">asia</b></span>
                   </a>
@@ -51,9 +51,9 @@ document.writeln(`
          </div><!-- end container -->
       </section>
       <section class="bg-dark-subtle">
-         <div class="container-lg">
+         <div class="container-lg px-1 px-lg-3">
             <div class="overflow-x-auto">
-               <div class="d-flex flex-nowrap text-capitalize column-gap-2 text-nowrap py-1">
+               <div class="d-flex flex-nowrap text-capitalize column-gap-1 text-nowrap py-1">
                   <a href="#" class="btn btn-sm btn-secondary active">
                      <span><b class="fw-medium">breaking news</b></span>
                   </a>
