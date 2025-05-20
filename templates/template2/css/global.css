@@ -117,6 +117,11 @@ html {
       border-left: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
    }
 }
+.border-lg-0 {
+   @media (min-width: 992px) {
+      border-width: 0 !important;
+   }
+}
 
 .media {
    display: flex;
