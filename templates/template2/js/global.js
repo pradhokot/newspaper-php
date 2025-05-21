@@ -38,11 +38,20 @@ $(document).ready(function() {
 
 
    // ----------------- auto refresh page on responsive width
-   var windowWidth = $(window).width();
+   let lastWindowWidth = $(window).width();
    $(window).resize(function () {
-      if (windowWidth != $(window).width()) {
+      const currentWidth = $(window).width();
+      const crossed992 = (lastWindowWidth < 992 && currentWidth >= 992) || (lastWindowWidth >= 992 && currentWidth < 992);
+      if (crossed992) {
          location.reload();
-         return;
       }
+      lastWindowWidth = currentWidth;
    });
+   // var windowWidth = $(window).width();
+   // $(window).resize(function () {
+   //    if (windowWidth != $(window).width()) {
+   //       location.reload();
+   //       return;
+   //    }
+   // });
 })
