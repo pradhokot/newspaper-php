@@ -1,0 +1,10 @@
+.news-item {
+   min-height: 4rem;
+
+   .news-category,
+   .news-title,
+   .news-img,
+   .news-time {
+      display: none !important;
+   }
+}
