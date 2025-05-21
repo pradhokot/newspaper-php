@@ -27,64 +27,64 @@ document.writeln(`
       </div><!-- end container -->
    </div><!-- end navbar header -->
    <div class="navbar-menu">
-      <section class="bg-secondary">
+      <section style="background-color: rgb(108, 117, 125);">
          <div class="container-lg px-1 px-lg-3">
             <div class="overflow-x-auto">
                <div class="d-flex flex-nowrap text-capitalize column-gap-1 text-nowrap py-1">
-                  <a href="#" class="btn btn-sm btn-secondary">
+                  <a href="#" class="btn btn-sm">
                      <span><b class="fw-medium">asia</b></span>
                   </a>
-                  <a href="#" class="btn btn-sm btn-secondary active">
+                  <a href="#" class="btn btn-sm active">
                      <span><b class="fw-medium">australia</b></span>
                   </a>
-                  <a href="#" class="btn btn-sm btn-secondary">
+                  <a href="#" class="btn btn-sm">
                      <span><b class="fw-medium">china</b></span>
                   </a>
-                  <a href="#" class="btn btn-sm btn-secondary">
+                  <a href="#" class="btn btn-sm">
                      <span><b class="fw-medium">europe</b></span>
                   </a>
-                  <a href="#" class="btn btn-sm btn-secondary">
+                  <a href="#" class="btn btn-sm">
                      <span><b class="fw-medium">USA</b></span>
                   </a>
                </div>
             </div>
          </div><!-- end container -->
       </section>
-      <section class="bg-dark-subtle">
+      <section style="backgrond-color: #212529;">
          <div class="container-lg px-1 px-lg-3">
             <div class="overflow-x-auto">
                <div class="d-flex flex-nowrap text-capitalize column-gap-1 text-nowrap py-1">
-                  <a href="#" class="btn btn-sm btn-secondary active">
+                  <a href="#" class="btn btn-sm active">
                      <span><b class="fw-medium">breaking news</b></span>
                   </a>
-                  <a href="#" class="btn btn-sm btn-secondary">
+                  <a href="#" class="btn btn-sm">
                      <span><b class="fw-medium">policies</b></span>
                   </a>
-                  <a href="#" class="btn btn-sm btn-secondary">
+                  <a href="#" class="btn btn-sm">
                      <span><b class="fw-medium">world</b></span>
                   </a>
-                  <a href="#" class="btn btn-sm btn-secondary">
+                  <a href="#" class="btn btn-sm">
                      <span><b class="fw-medium">business</b></span>
                   </a>
-                  <a href="#" class="btn btn-sm btn-secondary">
+                  <a href="#" class="btn btn-sm">
                      <span><b class="fw-medium">finance</b></span>
                   </a>
-                  <a href="#" class="btn btn-sm btn-secondary">
+                  <a href="#" class="btn btn-sm">
                      <span><b class="fw-medium">sports</b></span>
                   </a>
-                  <a href="#" class="btn btn-sm btn-secondary">
+                  <a href="#" class="btn btn-sm">
                      <span><b class="fw-medium">health</b></span>
                   </a>
-                  <a href="#" class="btn btn-sm btn-secondary">
+                  <a href="#" class="btn btn-sm">
                      <span><b class="fw-medium">texhnology</b></span>
                   </a>
-                  <a href="#" class="btn btn-sm btn-secondary">
+                  <a href="#" class="btn btn-sm">
                      <span><b class="fw-medium">travel & livestyle</b></span>
                   </a>
-                  <a href="#" class="btn btn-sm btn-secondary">
+                  <a href="#" class="btn btn-sm">
                      <span><b class="fw-medium">entertainment</b></span>
                   </a>
-                  <a href="#" class="btn btn-sm btn-secondary">
+                  <a href="#" class="btn btn-sm">
                      <span><b class="fw-medium">MISC</b></span>
                   </a>
                </div>

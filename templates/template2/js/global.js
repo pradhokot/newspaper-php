@@ -48,6 +48,7 @@ $(document).ready(function () {
       }
       lastWindowWidth = currentWidth;
    });
+
    // let lastWindowWidth = $(window).width();
    // $(window).resize(function () {
    //    const currentWidth = $(window).width();
