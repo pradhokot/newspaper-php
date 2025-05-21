@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
    // ----------------- variabel height
    var windowHeight = $(window).height();
    var headerHeight = $('.page-header').outerHeight();
@@ -18,8 +18,8 @@ $(document).ready(function() {
          $('.nav-ad').slideDown();
       };
    });
-   
-   
+
+
    // ----------------- toggle scroll
    // let prevScrollpos = $(window).scrollTop();
    // $(window).on('scroll', function () {
@@ -41,12 +41,23 @@ $(document).ready(function() {
    let lastWindowWidth = $(window).width();
    $(window).resize(function () {
       const currentWidth = $(window).width();
+      const crossed576 = (lastWindowWidth < 576 && currentWidth >= 576) || (lastWindowWidth >= 576 && currentWidth < 576);
       const crossed992 = (lastWindowWidth < 992 && currentWidth >= 992) || (lastWindowWidth >= 992 && currentWidth < 992);
-      if (crossed992) {
+      if (crossed576 || crossed992) {
          location.reload();
       }
       lastWindowWidth = currentWidth;
    });
+   // let lastWindowWidth = $(window).width();
+   // $(window).resize(function () {
+   //    const currentWidth = $(window).width();
+   //    const crossed992 = (lastWindowWidth < 992 && currentWidth >= 992) || (lastWindowWidth >= 992 && currentWidth < 992);
+   //    if (crossed992) {
+   //       location.reload();
+   //    }
+   //    lastWindowWidth = currentWidth;
+   // });
+
    // var windowWidth = $(window).width();
    // $(window).resize(function () {
    //    if (windowWidth != $(window).width()) {
