@@ -10,7 +10,7 @@ document.writeln(`
                </div>
                <div class="lh-1">
                   <b class="fw-bold lh-1 m-0" style="font-size: 1.5rem;">FactaBot</b><br>
-                  <small class="text-warning text-uppercase" style="font-size: .75rem;">Real news. Sharp jokes. Zero puppeteers</small>
+                  <small class="text-warning text-uppercase" style="font-size: .675rem;">Real news. Sharp jokes. Zero puppeteers</small>
                </div>
             </a>
          </h1>
