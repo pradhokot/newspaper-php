@@ -5,9 +5,6 @@
    --color-danger: #FF4EB0;
    --bs-danger: #FF4EB0 !important;
    --bs-danger-rgb: 255, 78, 176 !important;
-   --color-gray: #595c5f;
-   --bs-secondary: #969696 !important;
-   --bs-secondary-rgb: 150, 150, 150 !important;
 }
 
 html {
@@ -21,7 +18,6 @@ html {
 }
 
 .container,
-.container-fluid,
 .container-lg,
 .container-md,
 .container-sm,
@@ -112,11 +108,13 @@ html {
       border-left: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
    }
 }
+
 .border-lg-start {
    @media (min-width: 992px) {
       border-left: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color) !important;
    }
 }
+
 .border-lg-0 {
    @media (min-width: 992px) {
       border-width: 0 !important;
@@ -129,13 +127,3 @@ html {
    column-gap: .5rem;
    line-height: 1;
 }
-
-.ellipsis-4-lines {
-    display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    line-height: 1.5em;
-    max-height: 6em;
-  }
