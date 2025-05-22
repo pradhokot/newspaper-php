@@ -127,3 +127,9 @@ html {
    column-gap: .5rem;
    line-height: 1;
 }
+
+.overflow-lg-visible {
+   @media (min-width: 992px) {
+      overflow: visible !important;
+   }
+}
