@@ -1,7 +1,7 @@
 document.writeln(`
 <!-- ----------- running text -->
 <div class="text-bg-warning">
-   <div class="container-xxl">
+   <div class="container-xxl px-0 px-lg-3">
       <div class="row g-0 mx-auto">
          <div class="col col-auto">
             <button class="btn btn-primary rounded-0">Leave Testimonial</button>
