@@ -1,0 +1,6 @@
+.comment-wrapper {
+   @media (min-width: 992px) {
+      height: 62.5rem;
+      overflow-y: auto;
+   }
+}

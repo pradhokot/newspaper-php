@@ -133,3 +133,15 @@ html {
       overflow: visible !important;
    }
 }
+
+.position-md-absolute {
+   @media (min-width: 768px) {
+      position: absolute !important;
+   }
+}
+
+.fa-md-2 {
+   @media (min-width: 768px) {
+      font-size: 1.5em;
+   }
+}

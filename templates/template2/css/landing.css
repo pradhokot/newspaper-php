@@ -66,3 +66,14 @@
       max-height: 6em;
    }
 }/* end news */
+
+.just-wrapper {
+   @media (min-width: 992px) {
+      height: 24rem;
+      overflow-y: auto;
+   }
+
+   .just-list>.col:last-of-type {
+      border-width: 0 !important;
+   }
+}
