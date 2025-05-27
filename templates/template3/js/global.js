@@ -2,6 +2,10 @@ $(document).ready(function() {
    var navtopHeight = $('.navtop').outerHeight();
    $('.sidenav').css('top', navtopHeight + 'px');
 
+   $('input, text-area, .form-control').hover(function() {
+      $(this).select();
+   });
+
    // Auto refresh jika lebar window melewati batas 992px
    // let lastWindowWidth = $(window).width();
    // $(window).resize(function () {
