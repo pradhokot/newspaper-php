@@ -9,13 +9,27 @@
    }
 }
 
+.journalist {
+   .journalist-item>.col:first-of-type {
+      max-width: 120px;
+   }
+}
+
 .news-item {
    .news-category {
       margin-bottom: .25rem;
    }
    .news-title {
       margin-bottom: 1rem;
-      font-size: calc(1.75em + .5vw);
+      font-size: calc(1.5em + .5vw);
+
+      @media (min-width: 1200px) {
+         font-size: 2rem;
+
+         &.hot-news {
+            font-size: 2.75rem;
+         }
+      }
    }
    .news-img {
       margin-bottom: 1rem;

@@ -99,6 +99,21 @@ body {
 }
 
 
+/* ------------------- sidenav */
+.sidenav {
+   display: flex;
+   flex-direction: column;
+   row-gap: 2rem;
+
+   @media (min-width: 768px) {
+      position: -webkit-sticky;
+      position: sticky;
+      z-index: 1020;
+   }
+}
+
+
+
 /* ------------------- header menu */
 .header-menu {
    position: relative;
