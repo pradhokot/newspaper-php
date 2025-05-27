@@ -1,0 +1,26 @@
+.journalist-list {
+   @media (max-width: 767.98px) {
+      overflow-x: auto;
+      overflow-y: hidden;
+
+      .journalist-item {
+         min-width: 18rem;
+      }
+   }
+}
+
+.news-item {
+   .news-category {
+      margin-bottom: .25rem;
+   }
+   .news-title {
+      margin-bottom: 1rem;
+      font-size: calc(1.75em + .5vw);
+   }
+   .news-img {
+      margin-bottom: 1rem;
+   }
+   .news-text {
+      margin-bottom: 1.5rem;
+   }
+}
