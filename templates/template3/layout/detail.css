@@ -1,0 +1,22 @@
+.news-action {
+   @media (min-width: 768px) {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      z-index: 100;
+      background-color: rgba(0, 0, 0, .5);
+      border-radius: .25rem 0 0 .25rem;
+      padding: .25rem 0;
+
+      a {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         padding: .25rem;
+         width: 2.4rem;
+         height: 2.4rem;
+         text-align: center;
+      }
+   }
+}
