@@ -1,9 +1,9 @@
 document.writeln(`
-<div class="running-text text-bg-warning">
+<div class="running-text text-bg-warning border-top border-bottom border-danger border-2">
    <div class="container-lg px-0 px-lg-3">
       <div class="row flex-nowrap g-0">
          <div class="col col-auto">
-            <button class="btn btn-primary rounded-0 border-0 shadow-none">
+            <button class="btn btn-primary rounded-0 border-0 shadow-none" data-bs-toggle="modal" data-bs-target="#modalFormTestimoni">
                Leave Testimonial
             </button>
          </div><!-- end col -->
