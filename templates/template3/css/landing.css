@@ -4,14 +4,8 @@
       overflow-y: hidden;
 
       .journalist-item {
-         min-width: 18rem;
+         min-width: 10rem;
       }
-   }
-}
-
-.journalist {
-   .journalist-item>.col:first-of-type {
-      max-width: 120px;
    }
 }
 
