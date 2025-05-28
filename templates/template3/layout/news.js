@@ -1,4 +1,5 @@
 document.writeln(`
+<!-- ------------------------------ layout news 1  -->
 <div class="row g-0">
    <div class="col px-3 col-12">
       
@@ -129,10 +130,13 @@ document.writeln(`
       
    </div><!-- end col -->
 </div><!-- end row -->
-<hr>
+<div class="px-md-3"><hr></div>
+<!-- end layout news 1 -->
+
+<!-- ------------------------------ layout news 2  -->
 <div class="row g-0">
    <div class="col px-3 col-12 col-md-7">
-
+      
       <div class="news-item">
          <header>
             <p class="news-category">
@@ -263,4 +267,6 @@ document.writeln(`
          </div><!-- end col -->
       </div><!-- end row -->
    </div><!-- end col -->
-</div><!-- end row -->`)
+</div><!-- end row -->
+<div class="px-md-3"><hr></div>
+<!-- end layout news 2 -->`)
