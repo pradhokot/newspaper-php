@@ -15,13 +15,13 @@
    }
    .news-title {
       margin-bottom: 1rem;
-      font-size: calc(1.5em + .5vw);
+      font-size: 1.5em;
 
-      @media (min-width: 1200px) {
-         font-size: 2rem;
+      @media (min-width: 768px) {
+         /* font-size: 2rem; */
 
          &.hot-news {
-            font-size: 2.75rem;
+            font-size: 2.25rem;
          }
       }
    }
