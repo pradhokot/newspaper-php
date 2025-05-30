@@ -142,7 +142,7 @@ document.writeln(`
             <p class="news-category">
                <small><b class="fw-bold">Politic</b> Donald Trump</small>
             </p>
-            <h5 class="news-title text-warning">
+            <h5 class="news-title hot-news text-warning">
                <b class="fw-bold">
                   <a href="detail.html" class="text-reset link-hover-underline">
                      Sorry, Donald, but the celebrities you covet will never be your friends

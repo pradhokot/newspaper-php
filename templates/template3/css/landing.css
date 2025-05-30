@@ -21,8 +21,12 @@
 
          @media (min-width: 768px) {
             /* font-size: 2rem; */
-
-            &.hot-news {
+         }
+         
+         &.hot-news {
+            font-size: 2rem;
+            
+            @media (min-width: 768px) {
                font-size: 2.25rem;
             }
          }

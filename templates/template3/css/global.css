@@ -26,6 +26,7 @@ body {
 
    &>main {
       flex-grow: 1;
+      font-size: 1.125rem;
    }
 }
 
@@ -111,11 +112,11 @@ body {
    flex-direction: column;
    row-gap: 2rem;
 
-   @media (min-width: 768px) {
+   /* @media (min-width: 768px) {
       position: -webkit-sticky;
       position: sticky;
       z-index: 1020;
-   }
+   } */
 }
 
 
