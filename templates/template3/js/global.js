@@ -1,5 +1,5 @@
 $(document).ready(function() {
-   var navtopHeight = $('.navtop').outerHeight();
+   // var navtopHeight = $('.navtop').outerHeight();
    // $('.sidenav').css('top', navtopHeight + 'px');
 
    $('input, text-area, .form-control').hover(function() {

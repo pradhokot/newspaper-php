@@ -26,7 +26,10 @@ body {
 
    &>main {
       flex-grow: 1;
-      font-size: 1.125rem;
+
+      @media (min-width: 992px) {
+         font-size: 1.125rem;
+      }
    }
 }
 
