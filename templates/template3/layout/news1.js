@@ -9,7 +9,7 @@ document.writeln(`
                <p class="news-category">
                   <small><b class="fw-bold">Politic</b> Donald Trump</small>
                </p>
-               <h5 class="news-title hot-news text-warning">
+               <h5 class="news-title hot-news text-danger">
                   <b class="fw-bold">
                      <a href="detail.html" class="text-reset link-hover-underline">
                         Sorry, Donald, but the celebrities you covet will never be your friends
@@ -30,10 +30,12 @@ document.writeln(`
                      </p>
                      <div class="news-time media small">
                         <div class="media-header">
-                           <div class="ratio ratio-1x1 rounded-circle" style="width: 2rem;"></div>
+                           <div class="ratio ratio-1x1 rounded-circle border border-2 border-danger" style="width: 2rem;">
+                              <img src="../../asset/img/user/clara.jpg" class="object-fit-cover" alt="">
+                           </div>
                         </div>
                         <div class="media-body">
-                           <div class="mb-1"><small class="opacity-75">Author by</small> <b class="fw-medium">Yoggi Pradhokot</b></div>
+                           <div><small class="opacity-75">Author by</small> <b class="fw-medium text-danger">Clara</b></div>
                            <div><small>5 minutes ago</small></div>
                         </div>
                      </div>
@@ -51,7 +53,7 @@ document.writeln(`
                <p class="news-category">
                   <small><b class="fw-bold">Politic</b> Donald Trump</small>
                </p>
-               <h5 class="news-title">
+               <h5 class="news-title text-warning">
                   <b class="fw-bold">
                      <a href="detail.html" class="text-reset link-hover-underline">
                         Sorry, Donald, but the celebrities you covet will never be your friends
@@ -72,10 +74,12 @@ document.writeln(`
                      </p>
                      <div class="news-time media small">
                         <div class="media-header">
-                           <div class="ratio ratio-1x1 rounded-circle" style="width: 2rem;"></div>
+                           <div class="ratio ratio-1x1 rounded-circle border border-2 border-warning" style="width: 2rem;">
+                              <img src="../../asset/img/user/lola.jpg" class="object-fit-cover" alt="">
+                           </div>
                         </div>
                         <div class="media-body">
-                           <div class="mb-1"><small class="opacity-75">Author by</small> <b class="fw-medium">Yoggi Pradhokot</b></div>
+                           <div><small class="opacity-75">Author by</small> <b class="fw-medium text-warning">Lola</b></div>
                            <div><small>5 minutes ago</small></div>
                         </div>
                      </div>
@@ -117,10 +121,12 @@ document.writeln(`
                      </p>
                      <div class="news-time media small">
                         <div class="media-header">
-                           <div class="ratio ratio-1x1 rounded-circle" style="width: 2rem;"></div>
+                           <div class="ratio ratio-1x1 rounded-circle border border-2 border-white" style="width: 2rem;">
+                              <img src="../../asset/img/user/phor.jpg" class="object-fit-cover" alt="">
+                           </div>
                         </div>
                         <div class="media-body">
-                           <div class="mb-1"><small class="opacity-75">Author by</small> <b class="fw-medium">Yoggi Pradhokot</b></div>
+                           <div><small class="opacity-75">Author by</small> <b class="fw-medium text-white">Phor</b></div>
                            <div><small>5 minutes ago</small></div>
                         </div>
                      </div>

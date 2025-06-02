@@ -2,7 +2,7 @@ document.writeln(`
 <!-- ------------------------------ layout news headlines  -->
 <div>
    <div class="px-md-3"><hr></div>
-   <div class="d-md-none">
+   <div>
       <div class="headlines small">
          <div class="row g-0">
          
