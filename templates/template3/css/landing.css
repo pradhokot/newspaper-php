@@ -46,6 +46,10 @@
    }
 }
 
+.news-category .news>*:last-of-type {
+   display: block !important;
+}
+
 .more .more-item {
    display: -webkit-box;
    -webkit-line-clamp: 3;
