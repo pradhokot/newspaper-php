@@ -2,8 +2,16 @@ document.writeln(`
 <div class="header-menu header-menu2">
    <div class="menu-top bg-secondary">
       <div class="container-lg px-1 px-lg-3 py-1">
-         <div class="row flex-nowrap g-0 align-items-center column-gap-1 row-gap-1">
-            <div class="col col-auto">
+         <div class="row g-0 align-items-center column-gap-1 row-gap-1">
+            <div class="col col-12 col-md-auto d-flex align-items-center gap-1 order-md-2">
+               <a href="#" class="btn active lh-sm border-0 rounded-1 w-100 fs-small text-nowrap">
+                  The Anti-News Manifesto
+               </a>
+               <a href="#" class="btn active lh-sm border-0 rounded-1 w-100 fs-small text-nowrap">
+                  Why We Had to Build This
+               </a>
+            </div><!-- end col -->
+            <div class="col col-12 col-md order-md-1">
                <div class="overflow-x-auto">
                   <div class="d-flex flex-nowrap text-capitalize column-gap-1 text-nowrap">
                      <a href="#" class="btn btn-sm border-0 shadow-none">
@@ -28,14 +36,6 @@ document.writeln(`
                      </a>
                   </div>
                </div>
-            </div><!-- end col -->
-            <div class="col d-flex align-items-center gap-1 justify-content-end">
-               <a href="#" class="btn active lh-sm border-0 rounded-1" style="font-size: small; min-height: 2rem;">
-                  The Anti-News Manifesto
-               </a>
-               <a href="#" class="btn active lh-sm border-0 rounded-1" style="font-size: small; min-height: 2rem;">
-                  Why We Had to Build This
-               </a>
             </div><!-- end col -->
          </div><!-- end row -->
       </div>

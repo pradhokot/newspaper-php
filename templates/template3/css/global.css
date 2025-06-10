@@ -57,6 +57,9 @@ body {
 .fs-reset {
    font-size: inherit;
 }
+.fs-small {
+   font-size: small;
+}
 
 .link-hover {
    opacity: .75;
