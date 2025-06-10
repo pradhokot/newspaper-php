@@ -12,16 +12,17 @@ document.writeln(`
                      <b class="fw-bold">FactaBot</b>
                   </h5>
                   <p class="text-uppercase mb-0 lh-1 text-warning">
-                     <small style="font-size: .65em;">Real news. Sharp jokes. Zero puppeteers</small>
+                     <small style="font-size: calc(.5em + .2vw);">Real news. Sharp jokes. Zero puppeteers</small>
                   </p>
                </div>
             </a>
          </h1>
       </div>
       <div class="flex-grow-1">
-         <div class="float-end d-flex flex-wrap gap-3 align-items-center">
+         <div class="float-end d-flex flex-wrap gap-1 align-items-center gap-md-3">
+            <div><small><span class="d-none d-md-inline">2025, </span>June 09</small></div>
             <div class="d-none d-md-block">
-               <div class="input-group">
+               <div class="input-group" style="max-width: 25vw;">
                   <input type="search" class="form-control border-light border-end-0 shadow-none" placeholder="Search">
                   <button class="btn btn-outline-light border-start-0 shadow-none">
                      <i class="fas fa-search"></i>

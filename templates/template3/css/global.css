@@ -124,6 +124,13 @@ body {
 
 
 
+/* ------------------- sidebar */
+#sidebar .nav-side li:first-of-type {
+   display: none;
+}
+
+
+
 /* ------------------- header menu */
 .header-menu {
    position: relative;
@@ -145,3 +152,28 @@ body {
       }
    }
 }
+
+.header-menu2 {
+   & .btn {
+      display: flex;
+      column-gap: .5rem;
+      align-items: center;
+      text-align: center;
+   }
+   
+   .overflow-x-auto .btn {
+      height: 2rem;
+   
+      &>img {
+         width: 1.5rem;
+      }
+   
+      &>small {
+         display: none;
+   
+         @media (min-width: 768px) {
+            display: inline;
+         }
+      }
+   }
+} 
