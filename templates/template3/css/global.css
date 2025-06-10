@@ -164,6 +164,7 @@ body {
    
    .overflow-x-auto .btn {
       height: 2rem;
+      background-color: transparent;
    
       &>img {
          width: 1.5rem;
