@@ -2,18 +2,10 @@ document.writeln(`
 <div class="header-menu header-menu2">
    <div class="menu-top bg-secondary">
       <div class="container-lg px-1 px-lg-3 py-1">
-         <div class="row g-0 align-items-center column-gap-1 row-gap-1">
-            <div class="col col-12 col-md-auto d-flex align-items-center gap-1 order-md-2">
-               <a href="#" class="btn active lh-sm border-0 rounded-1 w-100 fs-small text-nowrap">
-                  The Anti-News Manifesto
-               </a>
-               <a href="#" class="btn active lh-sm border-0 rounded-1 w-100 fs-small text-nowrap">
-                  Why We Had to Build This
-               </a>
-            </div><!-- end col -->
-            <div class="col col-12 col-md order-md-1">
+         <div class="row gx-3 align-items-center">
+            <div class="col col-auto col-md">
                <div class="overflow-x-auto">
-                  <div class="d-flex flex-nowrap text-capitalize column-gap-1 text-nowrap">
+                  <div class="d-flex flex-nowrap text-capitalize column-gap-2 text-nowrap">
                      <a href="#" class="btn btn-sm border-0 shadow-none">
                         <img src="../../asset/img/icon-asia.png" width="100%" height="auto" alt="">
                         <small><b class="fw-medium">asia</b></small>
@@ -37,13 +29,27 @@ document.writeln(`
                   </div>
                </div>
             </div><!-- end col -->
+            <div class="col col-md-auto">
+               <div class="row g-1 secondary-menu">
+                  <div class="col">
+                     <a href="#" class="btn active lh-sm border-0 rounded-1 w-100 h-100 fs-small">
+                        The Anti-News Manifesto
+                     </a>
+                  </div><!-- end col -->
+                  <div class="col">
+                     <a href="#" class="btn active lh-sm border-0 rounded-1 w-100 h-100 fs-small">
+                        Why We Had to Build This
+                     </a>
+                  </div><!-- end col -->
+               </div><!-- end row -->
+            </div><!-- end col -->
          </div><!-- end row -->
       </div>
    </div><!-- end menu top -->
    <div class="menu-bottom bg-black">
       <div class="container-lg px-1 px-lg-3">
          <div class="overflow-x-auto">
-            <div class="d-flex flex-nowrap text-capitalize column-gap-1 text-nowrap py-1">
+            <div class="d-flex flex-nowrap text-capitalize column-gap-2 text-nowrap py-1">
                <a href="#" class="btn btn-sm border-0 shadow-none">
                   <img src="../../asset/img/icon-breaking-news.png" width="100%" height="auto" alt="">
                   <small><b class="fw-medium">breaking news</b></small>

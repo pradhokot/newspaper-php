@@ -57,6 +57,7 @@ body {
 .fs-reset {
    font-size: inherit;
 }
+
 .fs-small {
    font-size: small;
 }
@@ -164,21 +165,33 @@ body {
       align-items: center;
       text-align: center;
    }
-   
+
    .overflow-x-auto .btn {
       height: 2rem;
       background-color: transparent;
-   
+      padding: 0;
+
       &>img {
          width: 1.5rem;
       }
-   
+
       &>small {
          display: none;
       }
 
-      &.active>small {
-         display: inline;
+      &.active {
+         padding: 0 .5rem;
+      }
+      @media (min-width: 768px) {
+         &.active>small {
+            display: inline;
+         }
       }
    }
-} 
+
+   .secondary-menu {
+      @media (min-width: 768px) {
+         white-space: nowrap;
+      }
+   }
+}
