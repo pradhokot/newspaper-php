@@ -125,7 +125,8 @@ body {
 
 
 /* ------------------- sidebar */
-#sidebar .nav-side li:first-of-type {
+#sidebar .nav-side li:nth-child(1),
+#sidebar .nav-side li:nth-child(2) {
    display: none;
 }
 
